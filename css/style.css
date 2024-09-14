@@ -58,6 +58,7 @@ body {
 /* || MAIN SECTION STYLES */
 main > section {
   margin-top: 120px;
+  border-radius: 1rem;
 }
 /* DISCOUNT 65 STYLES */
 .discount-65 {
@@ -367,6 +368,7 @@ main > section {
 
 /* || FOOTER */
 .footer {
+  border: 1px solid #000;
   margin-top: 120px;
   height: 609px;
   background: #000;
