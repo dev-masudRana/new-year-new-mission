@@ -254,3 +254,28 @@ main > section {
   font-weight: 500;
   line-height: 32px;
 }
+
+/* HOLIDAY SALE */
+.discount-50-img-container {
+  position: relative;
+}
+
+.discount-50-img-container img {
+  display: block;
+}
+
+.discount-50-img-container .girl {
+  margin-left: auto;
+}
+
+.discount-50-img-container .box {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.discount-50-img-container .d-50 {
+  position: absolute;
+  right: 285px;
+  top: 86px;
+}
