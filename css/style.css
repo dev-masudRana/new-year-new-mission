@@ -23,7 +23,6 @@ body {
   max-width: 1320px;
   min-height: 100vh;
   margin: 0 auto;
-  border: 1px solid black; /* NEED TO REMOVE */
 }
 
 .red {
@@ -313,4 +312,127 @@ main > section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+}
+
+/* NEWSLETTER */
+.newsletter {
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter h2 {
+  color: #070211;
+  font-family: var(--FF-MERRIWEATHER);
+  font-size: 48px;
+  font-weight: 900;
+  margin: 40px 0 22px 0;
+}
+
+.newsletter p {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: var(--FF-INTER);
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.newsletter input {
+  padding: 25px 477px 25px 30px;
+  border: 0;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: var(--FF-INTER);
+  font-size: 18px;
+  margin-right: 0;
+}
+
+.newsletter button {
+  color: #fff;
+  font-family: var(--FF-INTER);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #f00;
+  padding: 25px 56px;
+  border: none;
+  border-radius: 0 50px 50px 0;
+}
+
+/* || FOOTER */
+.footer {
+  margin-top: 120px;
+  height: 609px;
+  background: #000;
+  color: #fff;
+}
+
+.address-container {
+  margin: 120px 275px 0 140px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer .location {
+  width: 375px;
+}
+
+.location p {
+  font-family: var(--FF-INTER);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.contact img {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+}
+
+.contact p {
+  font-family: var(--FF-INTER);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.social-links-container {
+  margin: 48px 275px 0 140px;
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.social-links-container img {
+  margin-right: 24px;
+}
+
+.rights {
+  margin: 50px 140px 0 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rights p,
+.rights button {
+  font-family: var(--FF-INTER);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.rights button {
+  background: transparent;
+  color: #fff;
+  border: none;
 }
