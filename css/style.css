@@ -26,6 +26,10 @@ body {
   border: 1px solid black; /* NEED TO REMOVE */
 }
 
+.red {
+  color: #f00;
+}
+
 /* || HEADER STYLES */
 .header {
   text-align: center;
@@ -145,10 +149,6 @@ main > section {
   line-height: 56px;
 }
 
-.party-time .red {
-  color: #f00;
-}
-
 .party-time button {
   background-color: #f00;
   color: #fff;
@@ -219,4 +219,38 @@ main > section {
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 43px;
+}
+
+/* DISCOUNT 50 */
+.discount-50 .discount-text {
+  text-align: center;
+}
+
+.discount-text h4 {
+  color: #070211;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: var(--FF-INTER);
+  margin-bottom: 1rem;
+}
+.discount-text h2 {
+  color: #070211;
+  font-family: var(--FF-MERRIWEATHER);
+  font-weight: 900;
+  font-size: 72px;
+  margin-bottom: 28px;
+}
+
+.discount-text .p-container {
+  max-width: 1068px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.discount-text .p-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: var(--FF-INTER);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
 }
