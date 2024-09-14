@@ -256,6 +256,10 @@ main > section {
 }
 
 /* HOLIDAY SALE */
+.discount-text {
+  text-align: center;
+}
+
 .discount-50-img-container {
   position: relative;
 }
@@ -271,11 +275,42 @@ main > section {
 .discount-50-img-container .box {
   position: absolute;
   bottom: 0;
-  color: white;
 }
 
 .discount-50-img-container .d-50 {
   position: absolute;
   right: 285px;
   top: 86px;
+}
+
+/* PORTFOLIO */
+.portfolio-text h4 {
+  color: #f00;
+  font-family: var(--FF-INTER);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.portfolio-text h2 {
+  color: #070211;
+  font-family: var(--FF-MERRIWEATHER);
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.portfolio-text p {
+  max-width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: var(--FF-INTER);
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 3rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
